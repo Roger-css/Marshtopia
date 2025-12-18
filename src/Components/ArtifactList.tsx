@@ -23,7 +23,7 @@ const ARTIFACTS: Artifact[] = [
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBCB4ZKF3kzRRdZ4bSypNSfaLnwn4DuLaQDNcmtbryDO4STbdZP7a8z2DnibFvlvYAdt0W42WI_XPwhxJNBzXRhepoPcWinFZf5v9TfPA02jkLv4jRR9wG-Kh9xwTKofz3roKAHKH6hPjXfFk3HV6T9AH8onPlrMkNhEn1WqjCXZZ3zL2XYV5h2YbUIxyGPa8pcLGgVWPq8p7yzCAHsV6b6w0qHmal1l5jzj0XKhsNtzCtbDq50AdjAf3X0RpMOC1wUq2z3RuchoWBO",
     alt: "Reed House Mudhif Structure",
-    link: "/gs_bh_1.splat",
+    link: "MudhifSplat",
   },
   {
     id: "mashhoof",

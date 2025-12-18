@@ -14,9 +14,14 @@ const ThreeDViewer = ({ url }: { url: string }) => {
 
     const init = async () => {
       // Load the .splat or .ply file
-      await SPLAT.Loader.LoadAsync(url, scene, (progress) => {
-        console.log(`Loading: ${Math.round(progress * 100)}%`);
-      });
+      await SPLAT.Loader.LoadAsync(
+        "https://gcwrpbb0pdlgqwbf.public.blob.vercel-storage.com/" + url,
+        // "/gs_bh_1.splat",
+        scene,
+        (progress) => {
+          console.log(`Loading: ${Math.round(progress * 100)}%`);
+        }
+      );
 
       const frame = () => {
         controls.update();

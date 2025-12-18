@@ -1,15 +1,18 @@
+"use client";
 import Navbar from "@/Components/Navbar";
 import ThreeDViewer from "@/Components/ThreeDViewer";
+import { useParams } from "next/navigation";
 
-const page = () => {
+const Page = () => {
+  const { model } = useParams<{ model: string }>();
   return (
     <div>
       <Navbar />
       <main>
-        <ThreeDViewer url="/gs_bh_1.splat" />
+        <ThreeDViewer url={model} />
       </main>
     </div>
   );
 };
 
-export default page;
+export default Page;

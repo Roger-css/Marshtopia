@@ -54,7 +54,7 @@ const MEMBERS: TeamMember[] = [
     age: 23,
     email: "tahahashimb@gmail.com",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBQWlVh8N-ZxM4-RgC985kNIhaoqVA67wPImSrtj5nG8xHv-I01EGZLv76oTkdNBMbT7_0pgCpWEi5L9L70s4Pz3vtAJNrS4er1_87HirfZB7jl5AHLf7pMgpWTia_jDosjyhw0HeYlKxJ1NmhXQun3sdLfc2DLhUyyMaJqfGEVw3oJQCVBC6tRg8IDzJrGx4TMPxwhujSghGgrGNoCAUKQ7A_p6bDolRaKj7BuVGKrp757wCvQ9jAlS80kWdjoMmY2gGjK6AnTOMjQ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAP22CvKsM2G1EATAgnZrZNjL3WEIQx7Ah3ake9wwo-Dt-dv0WBv1_qEeU3_qrdCyqTxAOAN7gaOgGgyFKkUmXkBsD68JNrIGXGUQFvro0BmLbY_Z78Asyqtg2AP8HOPHgNZSNVp8VnRnbYvizHPyTASoKs33joQ21uPc4n9RrEef5LEXe-0Dgo8wLFlpo8f7UI3wQvZuXt94Zpl-pL_3YZO_6KQWwpVR5nU2sm9hHkoK7KyE2Rld6CBqlT0jB3ujG5B6DceVY0GcHp",
   },
 ];
 
