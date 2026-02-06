@@ -36,7 +36,7 @@ export const Timeline = () => {
         </h2>
         <div className="relative">
           {/* Central Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-2 h-[95%] w-0.5 bg-white/30 rounded-full"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 translate-y-2 h-[95%] w-0.5 bg-white/30 rounded-full"></div>
 
           {events.map((event, index) => {
             const isEven = index % 2 === 0;

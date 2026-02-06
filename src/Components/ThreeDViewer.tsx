@@ -20,7 +20,7 @@ const ThreeDViewer = ({ url }: { url: string }) => {
         scene,
         (progress) => {
           console.log(`Loading: ${Math.round(progress * 100)}%`);
-        }
+        },
       );
 
       const frame = () => {
