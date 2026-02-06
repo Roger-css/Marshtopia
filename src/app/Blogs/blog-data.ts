@@ -70,8 +70,8 @@ export const BLOGS: BlogPost[] = [
       </div>
     `,
     imageUrl: "/Assets/blog%20biodiversity/IMG_20251218_231223_860.jpg.jpeg",
-    date: "February 8, 2026",
-    author: "Hassan Al-Ahwari",
+    date: "January 18, 2026",
+    author: "Aghadeer majid",
   },
   {
     id: "tangible-heritage",
@@ -117,8 +117,8 @@ export const BLOGS: BlogPost[] = [
       </div>
     `,
     imageUrl: "/Assets/blog%20heratige/Picture1.jpg",
-    date: "February 7, 2026",
-    author: "Karim Al-Sultan",
+    date: "February 2, 2026",
+    author: "Aghadeer majid",
   },
   {
     id: "history-of-the-marshes",
@@ -173,6 +173,6 @@ export const BLOGS: BlogPost[] = [
     `,
     imageUrl: "/Assets/blog%20history/Picture1.jpg",
     date: "February 6, 2026",
-    author: "Zainab Al-Marsoumi",
+    author: "Aghadeer majid",
   },
 ];
