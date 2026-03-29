@@ -6,9 +6,8 @@ const MEMBERS: TeamMember[] = [
     name: "Haider Hassan",
     role: "3D Designer",
     age: 23,
-    email: "example@email.com",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAIFUzqsqtFsNAd31gQJS-aAmiMhofSdYN_Rpcw4UvVcHQgHIilRyKJtpZr495PI2kOuQ4ZguyE6nxZbM5UOtn_7QmbVK9Su8sEi6ieJ4-H3gwJr7gfP11_TnTtmA8h2TwJSnKCbb7KsxOSLTfjrRdLI3JJKV_MAGAW9zt7Kt5h4KJlUkzMmg5n6fEHdSgU_LnKSAsoUmzlS2ls0q2N45qAnENmEcJGr_94wguEv8fIqeigjPSaZ_hqs8IRxBZT-uajSadbR15fqTZi",
+    email: "haider.hassan.ch@gmail.com",
+    image: "/Assets/haider.jpeg",
     isLeader: true,
   },
   {
@@ -16,45 +15,42 @@ const MEMBERS: TeamMember[] = [
     role: "3D Designer",
     age: 23,
     email: "drako225iq@gmail.com",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAP22CvKsM2G1EATAgnZrZNjL3WEIQx7Ah3ake9wwo-Dt-dv0WBv1_qEeU3_qrdCyqTxAOAN7gaOgGgyFKkUmXkBsD68JNrIGXGUQFvro0BmLbY_Z78Asyqtg2AP8HOPHgNZSNVp8VnRnbYvizHPyTASoKs33joQ21uPc4n9RrEef5LEXe-0Dgo8wLFlpo8f7UI3wQvZuXt94Zpl-pL_3YZO_6KQWwpVR5nU2sm9hHkoK7KyE2Rld6CBqlT0jB3ujG5B6DceVY0GcHp",
+    image: "/Assets/hussein.jpg",
   },
   {
     name: "Mustafa Haider",
     role: "Developer & UI/UX",
     age: 22,
-    email: "example@email.com",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAQA6xyxrie5JS-alDx9jTJRyAPVMXkAU3xzGOTYjDuLdgnJTIIwwKzby7USZKbHT9h0NAhEEG6lGbLyuTsCofg8lOD_8-rYlfvsTFe6VDKnYM-EUvDZ-SUr8p0WFabD3M3l8z73_kn7rDKvIrFMc8bvwInc0tP0jshRdBr-4T2XrM5ZRlOqhaByBgrk5BpEsMX4uIjv8S2Sza6vHLOmuLoDzI6T1YeqIEhGqMSiZObxnN4d20QFqaxIzTRIVIhpUV1-ac0l-AVPEW7",
+    email: "mustafahaider351@gmail.com",
+    image: "/Assets/mustafa.jpg",
   },
   {
     name: "Jannah Hamed",
-    role: "UI/UX Designer",
+    role: "UI/UX Designer & 3D Designer",
     age: 19,
     email: "jannahhamedd@gmail.com",
-    image: "/Assets/Jannah.png",
+    image: "/Assets/Jannah.jpeg",
   },
   {
     name: "Agadeer Majid",
     role: "UI/UX Designer",
     age: 19,
-    email: "example@email.com",
-    image: "/Assets/Agadeer.png",
+    email: "agadeer2006@gmail.com",
+    image: "/Assets/aghadeer.jpeg",
   },
   {
     name: "Heba Naeem",
     role: "UI/UX Designer",
     age: 21,
-    email: "example@email.com",
-    image: "/Assets/Hiba.png",
+    email: "naeemhiba787@gmail.com",
+    image: "/Assets/Hiba.jpeg",
   },
   {
     name: "Taha Hashim",
     role: "Photogrammetry",
     age: 23,
     email: "tahahashimb@gmail.com",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAP22CvKsM2G1EATAgnZrZNjL3WEIQx7Ah3ake9wwo-Dt-dv0WBv1_qEeU3_qrdCyqTxAOAN7gaOgGgyFKkUmXkBsD68JNrIGXGUQFvro0BmLbY_Z78Asyqtg2AP8HOPHgNZSNVp8VnRnbYvizHPyTASoKs33joQ21uPc4n9RrEef5LEXe-0Dgo8wLFlpo8f7UI3wQvZuXt94Zpl-pL_3YZO_6KQWwpVR5nU2sm9hHkoK7KyE2Rld6CBqlT0jB3ujG5B6DceVY0GcHp",
+    image: "/Assets/tahaa.jpeg",
   },
 ];
 

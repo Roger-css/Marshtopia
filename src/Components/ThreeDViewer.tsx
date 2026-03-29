@@ -14,14 +14,16 @@ const ThreeDViewer = ({ url }: { url: string }) => {
 
     const init = async () => {
       // Load the .splat or .ply file
-      await SPLAT.Loader.LoadAsync(
+      const splat = await SPLAT.Loader.LoadAsync(
         "https://gcwrpbb0pdlgqwbf.public.blob.vercel-storage.com/" + url,
-        // "/gs_bh_1.splat",
         scene,
         (progress) => {
           console.log(`Loading: ${Math.round(progress * 100)}%`);
         },
       );
+
+      // Scale down the model so it fits nicely in the viewport
+      splat.scale = new SPLAT.Vector3(0.4, 0.4, 0.4);
 
       const frame = () => {
         controls.update();

@@ -6,44 +6,85 @@ import Link from "next/link";
 
 const ARTIFACTS: Artifact[] = [
   {
-    id: "sumerian-vessel",
-    title: "Sumerian Vessel",
-    description:
-      "A digital reconstruction of a traditional clay vessel used for storing water and grains. This artifact highlights the craftsmanship typical of the early marsh settlements, featuring hand-etched geometry.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAPOvFpTvOpqX7ho-s-78L7FZWn0BtTZcCplYsHBlbrxhshHJcs3pwJmJhSQ0QVT7mx3F5jA00316YB7L_h6fUVms-58ncM1-4s7cN7pl-AygL3tUolZeTLpdKkK0psyFGWKTu_nJxXxY1mA4mYG9yRvdWJJQGbcv14CE-f2O3FUAes6sHlRLJigvd6KYcHmDJJqGzStUZr9zXeffQMSJ2Wr5OSbiPFNSFzxjI4ATW3fCNlHiXq-xshtPdRVzZVRzDyMVCFaGMTgMJB",
-    alt: "Ancient pottery artifact 3D model render",
-    link: "#",
-  },
-  {
     id: "mudhif",
     title: "The Mudhif",
     description:
-      "An architectural marvel made entirely of reeds and mud. This 3D model allows you to walk through the grand arches of a traditional guest house, reconstructed from 1950s surveys.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBCB4ZKF3kzRRdZ4bSypNSfaLnwn4DuLaQDNcmtbryDO4STbdZP7a8z2DnibFvlvYAdt0W42WI_XPwhxJNBzXRhepoPcWinFZf5v9TfPA02jkLv4jRR9wG-Kh9xwTKofz3roKAHKH6hPjXfFk3HV6T9AH8onPlrMkNhEn1WqjCXZZ3zL2XYV5h2YbUIxyGPa8pcLGgVWPq8p7yzCAHsV6b6w0qHmal1l5jzj0XKhsNtzCtbDq50AdjAf3X0RpMOC1wUq2z3RuchoWBO",
+      "An architectural marvel made entirely of reeds and mud. This 3D model allows you to walk through the grand arches of a traditional guest house, reconstructed from 1950s surveys of the southern Iraqi marshes.",
+    image: "/Assets/mud.jpeg",
     alt: "Reed House Mudhif Structure",
-    link: "MudhifSplat",
+    link: "mudeef.splat",
   },
   {
     id: "mashhoof",
     title: "The Mashhoof",
     description:
-      "Navigate the waterways with this detailed model of a Mashhoof, the traditional canoe of the Marsh Arabs. Its sleek, tar-coated design has remained unchanged for millennia.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCynQWH7Y_ABmEt02NwTqgrwoVCKswg6tnS4zVvaQQNCSDA9KOeXoXHV4f1FwleXWUoYa-TDGZlwA9-s9A3XLUeceIXW9dFQ3CoiN7kSCFL2PFt2cN3zuI10QJ_yLHcSERlILRvFdJb8mVzaerZdHfqYAbJ5Y30_yzqZClLK8Li-_j-Roreh3-AzOR8i5pgFkyKH3AmalHLPdd9kVfloR5wXNaKSFL7HyigWSDJvv7jRNilcV66bRPwhVpNED6XweNmXBt6m14R9zaI",
+      "Navigate the waterways with this detailed model of a Mashhoof, the traditional canoe of the Marsh Arabs. Its sleek, tar-coated design has remained unchanged for millennia, gliding silently through the wetlands.",
+    image: "/Assets/mashhoof.png",
     alt: "Marsh canoe Mashhoof",
-    link: "#",
+    link: "mashoof.splat",
   },
   {
-    id: "tablet",
-    title: "Cuneiform Tablet",
+    id: "basket",
+    title: "The Reed Basket",
     description:
-      "Examine the intricate markings of this ancient Cuneiform tablet. Our high-resolution scan captures every stylus stroke, recording trade and daily life in the cradle of civilization.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB4LaiXmu4LxgiX6HR4he4ajCYZoFGbAfWPKTiElPLxljPH7qj59x79V_DPmQQfDaKRByRR8dcclxFxp-jgrIzTAguclR6Mx7sUhWt-NSenCQLSVX0hJwrreNK5q4V_TGFuButw_QDhG20t_mLlZtC_EAZHcjCBo2usie6vShg7IpS4u7OIhxqBu5Zx_cShHiDFr9-h7Yb_IqMYelPPSZ8Mwwt0HtwkFbeZh2juvNWKMs4Omh7GkkTiAQ-J-lyZOnoP8VOILELgGT_R",
-    alt: "Tablet artifact",
-    link: "#",
+      "Woven by hand from the abundant reeds of the marshes, this basket represents one of the oldest craft traditions of the Marsh Arabs. Each pattern encoded family lineage and tribal identity passed down through generations.",
+    image: "/Assets/basket.jpeg",
+    alt: "Traditional Iraqi marsh woven reed basket artifact",
+    link: "basket2.splat",
+  },
+  {
+    id: "camelchair",
+    title: "The Camel Chair",
+    description:
+      "A finely crafted camel saddle chair used by the desert-dwelling tribes on the edges of the marshlands. This ornate seat blends Bedouin woodworking and leatherwork, a symbol of status and long journeys across ancient trade routes.",
+    image: "/Assets/camelchair.jpeg",
+    alt: "Traditional Bedouin camel saddle chair artifact",
+    link: "camelchair.splat",
+  },
+  {
+    id: "foodtray",
+    title: "The Ceremonial Food Tray",
+    description:
+      "Used in communal gatherings within the Mudhif, this large wooden serving tray features intricate carvings representing fertility and abundance. Sharing food from a single tray was a cornerstone of Marsh Arab hospitality.",
+    image: "/Assets/foodtray.jpeg",
+    alt: "Ancient Mesopotamian wooden food serving tray artifact",
+    link: "foodtray.splat",
+  },
+  {
+    id: "jar",
+    title: "The Clay Storage Jar",
+    description:
+      "Handcrafted from the rich alluvial clay of the Mesopotamian floodplains, this storage jar was essential for preserving grain, oil, and water. Its form has changed little since the earliest Sumerian settlements 6,000 years ago.",
+    image: "/Assets/jar.jpeg",
+    alt: "Ancient Sumerian clay storage jar artifact",
+    link: "jar.splat",
+  },
+  {
+    id: "minjal",
+    title: "The Minjal",
+    description:
+      "A traditional sickle-shaped harvesting tool used by the Marsh Arabs to cut reeds for construction and weaving. The Minjal's curved iron blade and wooden handle exemplify the functional ingenuity born from centuries of life in the marshes.",
+    image: "/Assets/mnjal.jpeg",
+    alt: "Traditional Iraqi marsh minjal harvesting tool artifact",
+    link: "minjal.splat",
+  },
+  {
+    id: "plate",
+    title: "The Painted Plate",
+    description:
+      "This ceremonial clay plate, adorned with geometric patterns in natural pigments, was used during seasonal festivals along the Tigris and Euphrates. Each motif carries symbolic meaning connecting the marsh community to the cosmos and the river's annual flood cycle.",
+    image: "/Assets/plate.jpeg",
+    alt: "Ancient Mesopotamian painted clay ceremonial plate artifact",
+    link: "plate.splat",
+  },
+  {
+    id: "qusa",
+    title: "The Qusa",
+    description:
+      "A round coracle boat woven from reeds and sealed with bitumen, the Quffa has navigated Mesopotamian rivers since antiquity. Referenced in ancient texts and depicted on Assyrian reliefs, it remains one of humanity's oldest watercraft designs still in use.",
+    image: "/Assets/qusa.jpeg",
+    alt: "Traditional Iraqi quffa coracle round reed boat",
+    link: "qusa.splat",
   },
 ];
 
