@@ -29,7 +29,7 @@ const MEMBERS: TeamMember[] = [
     role: "UI/UX Designer & 3D Designer",
     age: 19,
     email: "jannahhamedd@gmail.com",
-    image: "/Assets/Jannah.jpeg",
+    image: "/Assets/jannah.jpeg",
   },
   {
     name: "Agadeer Majid",
