@@ -12,7 +12,7 @@
 
 # testing
 /coverage
-
+*.splat
 # next.js
 /.next/
 /out/
