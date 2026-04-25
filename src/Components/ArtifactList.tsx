@@ -91,7 +91,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Abriq",
     description:
       "A traditional water jug known as the Abriq, widely used for washing and serving water. Its distinctive spout and handle design showcase classic Middle Eastern metalwork.",
-    image: "/assets/objects/abriq.PNG",
+    image: "/Assets/objects/abriq.PNG",
     alt: "Traditional Iraqi Abriq water jug",
     link: "abriq.splat",
   },
@@ -100,7 +100,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Copper Abriq",
     description:
       "Another beautiful variation of the traditional Abriq, reflecting regional craftsmanship. Such vessels were essential for hospitality and daily life in Mesopotamian homes.",
-    image: "/assets/objects/abriq2.PNG",
+    image: "/Assets/objects/abriq2.PNG",
     alt: "Copper Abriq variation",
     link: "abriq2.splat",
   },
@@ -109,7 +109,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Chafcheer",
     description:
       "A large traditional serving ladle or skimmer known locally as Chafcheer or Chamcha. Crafted from sturdy metal, it is an essential utensil for preparing large communal meals.",
-    image: "/assets/objects/جفجير.PNG",
+    image: "/Assets/objects/جفجير.PNG",
     alt: "Traditional Chafcheer serving ladle",
     link: "chamcha.splat",
   },
@@ -118,7 +118,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Falah",
     description:
       "A multi-pronged traditional spear used by the Marsh Arabs primarily for fishing in the shallow waters of the Mesopotamian marshes. A vital tool for their aquatic livelihood.",
-    image: "/assets/objects/فالة.PNG",
+    image: "/Assets/objects/فالة.PNG",
     alt: "Traditional Falah fishing spear",
     link: "falah.splat",
   },
@@ -127,7 +127,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Traditional Glass",
     description:
       "A beautifully detailed glass artifact, representing the long history of glassmaking and daily tableware used in the region.",
-    image: "/assets/objects/glass.PNG",
+    image: "/Assets/objects/glass.PNG",
     alt: "Traditional glass artifact",
     link: "glass.splat",
   },
@@ -136,7 +136,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Hawan",
     description:
       "A traditional heavy mortar known as the Hawan. Used for grinding coffee beans, spices, and grains, its rhythmic pounding is a familiar sound in Iraqi hospitality.",
-    image: "/assets/objects/هاون.PNG",
+    image: "/Assets/objects/هاون.PNG",
     alt: "Traditional Hawan mortar",
     link: "hawan.splat",
   },
@@ -145,7 +145,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Hawan Pestle",
     description:
       "The solid hand or pestle used alongside the Hawan mortar. Crafted for weight and durability to efficiently grind ingredients for traditional recipes.",
-    image: "/assets/objects/hawan hand.PNG",
+    image: "/Assets/objects/hawan hand.PNG",
     alt: "Traditional Hawan pestle",
     link: "hawan_hand.splat",
   },
@@ -154,7 +154,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Karook",
     description:
       "A traditional wooden baby cradle known as the Karook. Its simple yet effective rocking design has gently swayed generations of infants to sleep.",
-    image: "/assets/objects/كاروك.PNG",
+    image: "/Assets/objects/كاروك.PNG",
     alt: "Traditional Karook baby cradle",
     link: "karook.splat",
   },
@@ -163,7 +163,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Lala Lamp",
     description:
       "A traditional kerosene lamp known as 'Lala'. Before widespread electricity, these lamps illuminated homes and Mudhifs, casting a warm glow over evening gatherings.",
-    image: "/assets/objects/لاله.PNG",
+    image: "/Assets/objects/لاله.PNG",
     alt: "Traditional Lala kerosene lamp",
     link: "lala.splat",
   },
@@ -172,7 +172,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Mabkhara",
     description:
       "An ornate traditional incense burner used to burn fragrant woods like oud. Presenting the Mabkhara is a symbol of welcoming and honoring guests in Arab culture.",
-    image: "/assets/objects/مبخرة.PNG",
+    image: "/Assets/objects/مبخرة.PNG",
     alt: "Traditional Mabkhara incense burner",
     link: "mabkhara.splat",
   },
@@ -181,7 +181,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Ceremonial Mabkhara",
     description:
       "A variation of the traditional incense burner featuring different decorative motifs. Such items showcase the artistic heritage and importance of scent in local traditions.",
-    image: "/assets/objects/مبخرة 2.PNG",
+    image: "/Assets/objects/مبخرة 2.PNG",
     alt: "Ceremonial Mabkhara incense burner",
     link: "mabkhara2.splat",
   },
@@ -190,7 +190,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Maskhanah",
     description:
       "A traditional clay water jug designed to keep water naturally cool through evaporation. Its porous clay construction is perfectly adapted to the hot climate.",
-    image: "/assets/objects/مصخنه.PNG",
+    image: "/Assets/objects/مصخنه.PNG",
     alt: "Traditional Maskhanah clay water jug",
     link: "maskhanah.splat",
   },
@@ -199,7 +199,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Woven Tray",
     description:
       "A large, beautifully woven reed tray. These trays are versatile items used for winnowing grains, drying fruits, or serving food in traditional homes.",
-    image: "/assets/objects/newtray1.PNG",
+    image: "/Assets/objects/newtray1.PNG",
     alt: "Traditional woven reed tray",
     link: "newtray1.splat",
   },
@@ -208,7 +208,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Riguah",
     description:
       "A traditional artifact known as the Riguah, an integral part of historical daily life and rural customs in the Mesopotamian region.",
-    image: "/assets/objects/riguah.PNG",
+    image: "/Assets/objects/riguah.PNG",
     alt: "Traditional Riguah artifact",
     link: "riguah.splat",
   },
@@ -217,7 +217,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Salabcha",
     description:
       "A distinctively crafted traditional object representing the practical ingenuity and aesthetic preferences of local artisans.",
-    image: "/assets/objects/salabjah.PNG",
+    image: "/Assets/objects/salabjah.PNG",
     alt: "Traditional Salabcha artifact",
     link: "salabcha.splat",
   },
@@ -226,7 +226,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Sallah",
     description:
       "A traditional woven basket made from palm fronds or marsh reeds. Essential for carrying goods, dates, or personal belongings.",
-    image: "/assets/objects/سلة خوص.PNG",
+    image: "/Assets/objects/سلة خوص.PNG",
     alt: "Traditional Sallah woven basket",
     link: "sallah.splat",
   },
@@ -235,7 +235,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Animal Skull",
     description:
       "An animal skull artifact, likely from local livestock such as a water buffalo, holding cultural or decorative significance in the rural landscape.",
-    image: "/assets/objects/skull.PNG",
+    image: "/Assets/objects/skull.PNG",
     alt: "Animal skull artifact",
     link: "skull.splat",
   },
@@ -244,7 +244,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Ceramic Water Jug",
     description:
       "A classic ceramic water vessel, illustrating the timeless pottery traditions of Mesopotamia, designed to store and cool drinking water.",
-    image: "/assets/objects/water_jug.PNG",
+    image: "/Assets/objects/water_jug.PNG",
     alt: "Ceramic water jug artifact",
     link: "water_jug.splat",
   },
