@@ -25,12 +25,7 @@ const MemberCard = ({
     </div>
     <div className="grow text-center sm:text-left">
       <h3 className="text-xl font-display font-bold text-primary dark:text-white mb-1">
-        {member.name}{" "}
-        {member.isLeader && (
-          <span className="text-xs font-body font-normal text-accent opacity-90 lowercase">
-            (the leader)
-          </span>
-        )}
+        {member.name}
       </h3>
       <p className="text-xs font-bold text-accent dark:text-accent/80 mb-3 uppercase tracking-widest">
         {member.role} • {member.age} Yrs

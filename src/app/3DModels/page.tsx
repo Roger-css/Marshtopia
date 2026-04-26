@@ -3,7 +3,7 @@ import { CollectionHero } from "@/Components/CollectionHero";
 
 const page = () => {
   return (
-    <div className="min-h-screen bg-background-light dark:bg-background-dark transition-colors duration-300">
+    <div className="min-h-screen scroll-smooth bg-background-light dark:bg-background-dark transition-colors duration-300">
       <main>
         <CollectionHero />
         <ArtifactList />

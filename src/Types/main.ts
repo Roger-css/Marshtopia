@@ -22,5 +22,4 @@ export interface TeamMember {
   age: number;
   email: string;
   image: string;
-  isLeader?: boolean;
 }

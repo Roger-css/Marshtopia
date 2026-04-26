@@ -3,12 +3,11 @@ import MemberCard from "./MemberCard";
 
 const MEMBERS: TeamMember[] = [
   {
-    name: "Haider Hassan",
-    role: "3D Designer",
+    name: "Taha Hashim",
+    role: "Photogrammetry",
     age: 23,
-    email: "haider.hassan.ch@gmail.com",
-    image: "/Assets/haider.jpeg",
-    isLeader: true,
+    email: "tahahashimb@gmail.com",
+    image: "/Assets/tahaa.jpeg",
   },
   {
     name: "Hussein Bashir",
@@ -46,11 +45,11 @@ const MEMBERS: TeamMember[] = [
     image: "/Assets/Hiba.jpeg",
   },
   {
-    name: "Taha Hashim",
-    role: "Photogrammetry",
+    name: "Haider Hassan",
+    role: "3D Designer",
     age: 23,
-    email: "tahahashimb@gmail.com",
-    image: "/Assets/tahaa.jpeg",
+    email: "haider.hassan.ch@gmail.com",
+    image: "/Assets/haider.jpeg",
   },
 ];
 

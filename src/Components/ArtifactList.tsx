@@ -19,7 +19,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Mashhoof",
     description:
       "Navigate the waterways with this detailed model of a Mashhoof, the traditional canoe of the Marsh Arabs. Its sleek, tar-coated design has remained unchanged for millennia, gliding silently through the wetlands.",
-    image: "/Assets/mashhoof.png",
+    image: "/Assets/objects/مشحوف.PNG",
     alt: "Marsh canoe Mashhoof",
     link: "mashoof.splat",
   },
@@ -37,7 +37,7 @@ const ARTIFACTS: Artifact[] = [
     title: "The Camel Chair",
     description:
       "A finely crafted camel saddle chair used by the desert-dwelling tribes on the edges of the marshlands. This ornate seat blends Bedouin woodworking and leatherwork, a symbol of status and long journeys across ancient trade routes.",
-    image: "/Assets/camelchair.jpeg",
+    image: "/Assets/objects/camel_chair.PNG",
     alt: "Traditional Bedouin camel saddle chair artifact",
     link: "camelchair.splat",
   },
@@ -256,7 +256,7 @@ export const ArtifactList: React.FC = () => {
       id="collection"
       className="max-w-7xl mx-auto px-6 -mt-24 relative z-20 pb-32"
     >
-      <div className="space-y-32">
+      <div className="space-y-32 my-36">
         {ARTIFACTS.map((item, index) => {
           const isEven = index % 2 === 0;
           return (
