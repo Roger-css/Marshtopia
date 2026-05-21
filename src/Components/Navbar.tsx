@@ -15,6 +15,7 @@ const Navbar = () => {
     { label: "home", href: "/" },
     { label: "3D viewing", href: "/3DModels" },
     { label: "history", href: "/History" },
+    { label: "gallery", href: "/Gallery" },
     { label: "about us", href: "/About" },
     { label: "blogs", href: "/Blogs" },
   ];

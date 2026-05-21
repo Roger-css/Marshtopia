@@ -1,30 +1,40 @@
-import { BookOpen, AlertTriangle, Globe } from "lucide-react";
+import {
+  BookOpen,
+  AlertTriangle,
+  Globe,
+  Droplets,
+  Users,
+  Leaf,
+} from "lucide-react";
 import TimelineSection from "./TimelineSection";
 
 const HistoryPage = () => {
   const sections = [
     {
       number: 1,
-      title: "Early History",
-      subtitle: "The Dawn of Sumer",
+      title: "The Sumerian Cradle",
+      subtitle: "Dawn of Civilization · 4000 BC",
       icon: BookOpen,
       iconBg: "bg-primary",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB2_Uhy-yd11v8CkstTWTYP3792xHWKGYtKnvTbIEzQxARKqOArcHJ9XmsRdE6h4toUZGQhyomc9v2ihxiJe1cA78jeqr_fNywXr2fOOQJmAvi0I_LHT5hKmOXJg9DHnuMNYtZlsM6KZicfmaNw1omawO2_WWk9kC6WO_OxqEbNoyH8d66hCchcGSmi3PC8LuCgW70LQBza1BtioRY7DjytcwtcxyTYD3dbWqG8tpXm3_e_dXZMzrFF25WihmhDkkwQqOCRuFhAk3a_",
-      imageAlt: "Ancient photo of marsh boats",
+      image: "/Assets/history/1977.jpeg",
+      imageAlt:
+        "Ma'dan families aboard a traditional boat on the marshes, 1977",
       content: (
         <>
           <p className="first-letter:text-6xl first-letter:font-display first-letter:text-primary first-letter:float-left first-letter:mr-4 first-letter:mt-1 leading-relaxed">
-            The Iraqi marshes, often called the &quot;Mesopotamian
-            Marshes,&quot; are among the oldest wetland ecosystems in the world.
-            Historical records suggest that these wetlands have existed for
-            thousands of years, providing a natural habitat for wildlife and
-            humanity alike.
+            The Iraqi Marshes are believed to be the first home of Sumerian
+            civilization, dating back to around 4000 BC. Historians believe the
+            Sumerians settled these wetlands and drew from them the arts of
+            architecture and boat-building that seeded urban civilization
+            itself.
           </p>
           <p className="mt-4">
-            Serving as the garden for the first cities, these wetlands supported
-            the fishing, agriculture, and reed-building traditions that birthed
-            urban civilization.
+            The <strong>Mashhoof</strong>—the traditional canoe still used
+            today—is a refined descendant of Sumerian vessels depicted on
+            ancient cylinder seals. And the <strong>Mudhif</strong>, the iconic
+            reed guesthouse, has remained architecturally unchanged for
+            thousands of years: a living monument to the ingenuity of the
+            world&apos;s first builders.
           </p>
         </>
       ),
@@ -32,25 +42,28 @@ const HistoryPage = () => {
     },
     {
       number: 2,
-      title: "Cultural Heritage",
-      subtitle: "Home of the Ma'dan",
-      icon: BookOpen,
+      title: "The Garden of Eden",
+      subtitle: "Where Rivers Meet",
+      icon: Leaf,
       iconBg: "bg-accent",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDQFmbnf0Lp9KAkHYQM9lUWcBj9WgseGzKD1Qm6N0qkDa7st8a2IM6-t7JUZXEtriI32o6P_wweYau4JOv8Wq1cP72dO5l3YCimiLfiBOojoLRxFQh5BczYTlV4LZrwqPS7Tgd1srdihdiFgP8QuOsS7MB-n2RuW-n2nbZ82nRQ16Bl3Yyf66TN5DhF0xpZa54n460TOGPotPErWdgsGDqgYXvJDwP0tqRAAlyLk1YAoLlfK36Et3X34ZeK8ZZGa6YYEnRZFa7RLQ2j",
-      imageAlt: "Traditional marsh environment",
+      image: "/Assets/history/1980.jpeg",
+      imageAlt: "A Mashhoof in front of a traditional Mudhif reed house, 1980",
       content: (
         <>
           <p>
-            The Ma&apos;dan people have lived in harmony with the water for
-            millennia. Their culture is defined by the Mudhif—stately reed guest
-            houses built without a single nail—and the Mashhoof canoes that
-            navigate the narrow reed channels.
+            Many archaeologists and biblical scholars believe the confluence of
+            the Tigris and Euphrates—where the marshes sit—is the closest
+            geographic match to the historical <strong>Garden of Eden</strong>.
+            The abundance of water, plants, birds, and wildlife described in
+            ancient texts mirrors the marshes&apos; extraordinary biodiversity.
           </p>
           <p className="mt-4">
-            This unique symbiosis between man and nature inspired centuries of
-            poetry, folklore, and craft that remains a pillar of Iraqi identity
-            today.
+            During the Islamic golden ages, the marshes were known as
+            <strong> Al-Bata&apos;ih</strong>—vast expanses of water and reeds
+            stretching between Basra, Kufa, and Wasit. Their impenetrable
+            terrain made them a refuge for dissident movements; the 9th-century
+            Zanj Revolt used the marshes&apos; labyrinthine channels as a
+            fortress no army could easily breach.
           </p>
         </>
       ),
@@ -58,23 +71,27 @@ const HistoryPage = () => {
     },
     {
       number: 3,
-      title: "Environmental Peril",
-      subtitle: "A Vanishing Landscape",
-      icon: AlertTriangle,
-      iconBg: "bg-stone-800",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuD-laZyzxpKPiHzK-L31iTVsoVL3Mrb9fTfPf4MbHICY41JEIF1TmjW7rSH3an363Ho9gjfhfvFTI6nJiUwXUOE0NAWLP0tIuvjpa6OfocatzPqbFcdDQVB1tx7-f-FdLRBHbM2hgmrU5dXjlCax5Wazt8XbiFvxFEqI7zxpdH0Cb214elK9FMCPiW5bnhC6iCf-0jFuuJ43k6eWoh-wVYaN0kDHA86k0JA4Q2O9tHRIN9lsHBmzlJ4SxQNe5ER2A_M0XM_yok-MI6k",
-      imageAlt: "Drought conditions",
+      title: "The Ma'dan People",
+      subtitle: "A Living Museum",
+      icon: Users,
+      iconBg: "bg-stone-700",
+      image: "/Assets/history/1970.jpeg",
+      imageAlt: "Ma'dan women in Mashhoofs on the marshes, 1970",
       content: (
         <>
           <p className="mb-4">
-            In recent decades, the marshes faced existential threats.
-            Large-scale drainage projects, climate shifts, and damming reduced
-            the vital flow of the Tigris and Euphrates.
+            The <strong>Ma'dan</strong>—the marsh Arabs—have maintained a
+            continuous way of life spanning thousands of years, making them a
+            living archive of human history. Their dialect still carries
+            Sumerian and Akkadian vocabulary, preserved in the names of birds,
+            fish, and fishing tools used every day.
           </p>
           <p className="text-sm italic opacity-80 border-l-2 border-primary pl-4">
-            Rising salinity and desertification threatened to erase a culture
-            that had survived for five thousand years.
+            Water is not merely a resource for the Ma'dan—it is identity.
+            Travel, marriage, and even funerals all pass through the Mashhoof.
+            The Mudhif, built entirely from reeds without a single nail, stands
+            as perhaps the world's oldest continuously practiced architectural
+            tradition.
           </p>
         </>
       ),
@@ -83,23 +100,96 @@ const HistoryPage = () => {
     },
     {
       number: 4,
-      title: "Modern Restoration",
-      subtitle: "Global Heritage",
-      icon: Globe,
+      title: "Ecology & Wildlife",
+      subtitle: "The World's Rest Stop",
+      icon: Droplets,
       iconBg: "bg-primary",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAzIG-HwGvhRI16yWMLpvFz1icbla3JHLMWNFUarmxATfnKX1vxeesW5sUfHpVtLzRTgd-UvIr7paZy-5ZHtluMdXm7Djx_vfzZ9DnlgXh4_6MtK_aDHrAE2ekM5f0B6qFj3SSWW3_vV388o1zeu1f8k47JGZQMgtLkAxF1Pj2v34s_09V21LluIoLeFoXENg4JBXbtVRR3GL7oZBdhR7Ye2S27g6bOgv9Bmsf_al4CxybxOkCV6I4qpTZK_TNePSUQ-1ZkCOkF1KFe",
-      imageAlt: "Modern lush marshland",
+      image: "/Assets/history/1978.jpeg",
+      imageAlt: "Fishermen poling through misty marsh waters, 1978",
       content: (
         <>
           <p>
-            In 2016, the Iraqi Marshes were recognized as a UNESCO World
-            Heritage site. Restoration efforts continue to re-flood the plains,
-            bringing back the bird migrations and the ancestral way of life.
+            The marshes are the most critical stopover on the migratory flyway
+            between Siberia and Africa—a global crossroads for hundreds of bird
+            species including the rare Iraq Babbler and Little Grebe. They are
+            also Iraq's primary source of freshwater fish, with species like
+            Binni, Gattan, and Shabbot sustaining local communities for
+            millennia.
+          </p>
+          <p className="mt-4">
+            The <strong>water buffalo</strong> is the keystone animal of marsh
+            life—grazing on reeds and papyrus, providing milk, meat, and labor.
+            The marshes also produce Iraq's most prized dairy product:
+            <strong> Geymar al-Arab</strong>, the rich water-buffalo clotted
+            cream beloved across the country.
+          </p>
+        </>
+      ),
+      isReversed: false,
+    },
+    {
+      number: 5,
+      title: "Draining & Destruction",
+      subtitle: "90% Lost · The 1990s",
+      icon: AlertTriangle,
+      iconBg: "bg-red-900",
+      image: "/Assets/history/1978.jpeg",
+      imageAlt:
+        "Marsh fishermen in the mist, a world that nearly vanished, 1978",
+      content: (
+        <>
+          <p className="mb-4">
+            In the 1990s, the marshes faced a deliberate and systematic campaign
+            of drainage that destroyed over <strong>90%</strong> of their area
+            for political and security reasons. Vast wetlands turned to barren
+            salt flats overnight. Tens of thousands of Ma'dan were displaced
+            from the only home their families had known for generations.
+          </p>
+          <p className="text-sm italic opacity-80 border-l-2 border-red-700 pl-4">
+            Rising salinity and desertification threatened to permanently erase
+            a culture that had survived five thousand years—wiped out in less
+            than a decade.
+          </p>
+          <p className="mt-4">
+            After 2003, local and international efforts began re-flooding the
+            plains. Life returned—slowly, stubbornly—as birds reappeared and the
+            Ma'dan came home.
+          </p>
+        </>
+      ),
+      isReversed: true,
+      hasBox: true,
+    },
+    {
+      number: 6,
+      title: "UNESCO World Heritage",
+      subtitle: "Global Recognition · 2016",
+      icon: Globe,
+      iconBg: "bg-primary",
+      image: "/Assets/history/1989.jpeg",
+      imageAlt: "Ma'dan settlement with cattle and reed houses, 1989",
+      content: (
+        <>
+          <p>
+            In <strong>2016</strong>, the Iraqi Marshes achieved a historic
+            milestone: recognition as a{" "}
+            <strong>UNESCO World Heritage Site</strong>— one of the rare mixed
+            (natural and cultural) designations, honoring both the extraordinary
+            biodiversity and the living heritage of the Ma'dan who have
+            preserved their way of life across millennia.
+          </p>
+          <p className="mt-4">
+            Today the marshes span three provinces:{" "}
+            <strong>Hawr al-Hawizeh</strong> (Maysan, extending to the Iranian
+            border), the <strong>Central Marshes</strong> (Dhi Qar / Nasiriyah,
+            the beating heart of the wetlands), and{" "}
+            <strong>Hawr al-Hammar</strong> (between Dhi Qar and Basra). They
+            remain under threat from climate change and upstream damming—but
+            they endure.
           </p>
           <p className="mt-4 font-bold text-primary dark:text-accent">
-            Marshtopia is part of this journey—using digital 3D restoration to
-            preserve these stories forever.
+            Marshtopia is part of this story—using digital preservation to
+            ensure these landscapes and their people are never forgotten.
           </p>
         </>
       ),
@@ -124,9 +214,27 @@ const HistoryPage = () => {
           </h1>
           <div className="w-24 h-1 bg-accent mx-auto mb-8 rounded-full" />
           <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-300 max-w-2xl mx-auto font-body font-light leading-relaxed">
-            Discover the rich history and culture of the Mesopotamian wetlands,
-            the cradle of civilization.
+            From the cradle of Sumerian civilization to a UNESCO World Heritage
+            Site—six thousand years of water, reeds, and resilience.
           </p>
+
+          {/* Stats row */}
+          <div className="mt-12 grid grid-cols-3 gap-6 max-w-lg mx-auto">
+            {[
+              { value: "6,000+", label: "Years of History" },
+              { value: "90%", label: "Lost in the 90s" },
+              { value: "2016", label: "UNESCO Listed" },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center">
+                <div className="text-2xl md:text-3xl font-display font-bold text-primary dark:text-accent">
+                  {stat.value}
+                </div>
+                <div className="text-xs text-stone-500 dark:text-stone-400 mt-1 uppercase tracking-widest">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </header>
 

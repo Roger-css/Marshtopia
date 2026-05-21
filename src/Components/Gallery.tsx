@@ -5,8 +5,7 @@ import Image from "next/image";
 const items: GalleryItem[] = [
   {
     title: "Environment",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBxt_RA5A2kpYRSZo5te6SVX4Rsv3OUUxQERsjlJMAVS1Y2vjvD1qsjNqdERqbmT2eL7V5D5uOl8JClSbX1Wl-ffJENhYswrdpKHaER8H0DdglitW5ZdXzbINuDHnZOO00j7_jiI4LebsFMFjXTVtqkGo1dsB3lJiql4fZ8GXEV2B6zOTMVEGrRG0V6vgfg3S86SH6ucw047F5gZI3uUGR9ubNFqHTrws2pmjIzTtnQ5-UdWMzEnjDZplYPH3P2d8Kndxk4QoRM84Xa",
+    image: "/Assets/hero/photo_2026-05-21_03-30-58.jpg",
     alt: "3D Environment Render",
   },
   {
@@ -17,8 +16,7 @@ const items: GalleryItem[] = [
   },
   {
     title: "Buildings",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAq63frKVYtNTwM_5Hj4OEnLPoB9RZtnJODOK31_Ou91MOsUAvlo3oMw9IqG2R_RWQvSymvvZQemm1JSMjg4tP8ANtdyhFbNdtas5JFbo_Wf409q2_MwNASKq8ZPWkhYrr5Sp42TNjeJ66UXptkTtiEe89MbHVAC45AunmQ8lotPM4MTdiZO6TngnSx8GB6MlPAiDp46NnNIxo8DdwxaD76uyhf4OWUpA02CWpnYPZbZVCFk_8m_qFYW2hAI0JipNLIPRoqIYVTjTA7",
+    image: "/Assets/hero/cover.jpeg",
     alt: "Old Ruins Building",
   },
 ];

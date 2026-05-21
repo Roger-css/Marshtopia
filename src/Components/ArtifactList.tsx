@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const ARTIFACTS: Artifact[] = [
   {
-    id: "mudhif",
-    title: "The Mudhif",
+    id: "reed_house",
+    title: "reed",
     description:
       "An architectural marvel made entirely of reeds and mud. This 3D model allows you to walk through the grand arches of a traditional guest house, reconstructed from 1950s surveys of the southern Iraqi marshes.",
     image: "/Assets/objects/mud.jpeg",
