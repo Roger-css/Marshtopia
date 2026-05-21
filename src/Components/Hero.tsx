@@ -8,7 +8,7 @@ export const Hero = () => {
           <Image
             alt="Cinematic view of marshland waters"
             className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700 ease-in-out"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZZjhtL7TNGPSoV4iIEKCE6qtnf4OWIsxJqemwSi_eXIOunMw7cchY3uVLk-i1ly-U-7o0yE-SQ3AITcMj8pgnLw47hI4YVWMjErdpMwbZ7cHs528-bhFCvu0pyEz9L1iLYVkNsyhVVniTxe6IjpttBkzISQcKaVTaJtw1aT8sQUvLwUT0E_QTW0hqSAaV9wVqxOUHtjxk1AafR_0CPyODC2HWcs9vOG4RhzQz693G3nlpDy685dJpEN2GbOVTcYbM9vppu01HnDbx"
+            src="/Assets/hero/restoration.jpg"
             width={300}
             height={300}
           />
