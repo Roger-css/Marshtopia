@@ -28,7 +28,7 @@ export const VideoSection = () => {
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
-            src="/Assets/unv12-1.mp4"
+            src="https://gcwrpbb0pdlgqwbf.public.blob.vercel-storage.com/unv12-1.mp4"
             onEnded={() => setPlaying(false)}
           />
           <div
